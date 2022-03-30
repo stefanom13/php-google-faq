@@ -65,7 +65,50 @@ $faq = [
 
 <body>
     <header>
-        header
+    <div class="header-top">
+            <!-- LOGO -->
+            <div class="header-logo">
+                <div class="header-img">
+                    <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="">
+                </div>
+                <div class="header-text">
+                    <span>Privacy e termini</span>
+                </div>
+            </div>
+        
+            <div class="header-user">
+                 <div class="header-menu">
+                    <i class="fa-solid fa-bars"></i>
+                 </div>
+                 <div class="header-icon">
+                    <img src="./img/alice-user.png" alt="">
+                 </div>
+            </div>
+        </div>
+        <!-- FINE HEADER MENU TOP -->
+
+        <!-- HEADER MENU BOTTOM -->
+        <div class="header-bottom">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Introduzione</a>
+                    </li>
+                    <li>
+                        <a href="#">Norme sulla privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Termini di servizio</a>
+                    </li>
+                    <li>
+                        <a href="#">Tecnologie</a>
+                    </li>
+                    <li>
+                        <a href="#">Domande frequenti</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="container">
