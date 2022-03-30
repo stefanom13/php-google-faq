@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+/* MAIN */
+.main-content {
+    padding-top: 200px;
+}
+
+.main-content section {
+    padding-bottom: 40px;
+    color: rgba(0,0,0,0.8);
+}
+
+.main-content h2 {
+    padding-bottom: 20px;
+    color: #3c4043;
+    font-size: 24px;
+}
+
+.main-content div {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.main-content a {
+    color: #3367d6;
+}
+
+/* ol elenco ordinato - numeri */
+.main-content ol {
+    margin: 20px;
+}
+
+/* creo elenco puntato lettere della sezione 'Perché il mio account è associato a un paese?' */
+.list-letter {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+.list-letter li {
+    margin-bottom: 20px;
+}
+/* FINE MAIN */
+
+/* FOOTER */
