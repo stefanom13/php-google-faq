@@ -68,6 +68,7 @@ header {
   width: 40px;
   height: 40px;
 }
+
 /* FINE HEADER TOP */
 
 /* HEADER BOTTOM */
@@ -144,3 +145,46 @@ a {
 /* FINE MAIN */
 
 /* FOOTER */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px 0px;
+  border-top: 1px solid #eee;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+}
+
+.list,
+.language {
+  width: 50%;
+}
+
+.list {
+  font-size: 12px;
+  color: gray;
+}
+
+.list ul {
+  display: flex;
+}
+
+.list ul li a {
+  padding: 0px 2px;
+}
+
+.language {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-language {
+  color: #3367d6;
+  font-size: 20px;
+}
+
+.language select {
+  width: 150px;
+  margin-left: 10px;
+}

@@ -61,6 +61,7 @@ $faq = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google-faq</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -81,7 +82,7 @@ $faq = [
                     <i class="fa-solid fa-bars"></i>
                  </div>
                  <div class="header-icon">
-                    <img src="./img/alice-user.png" alt="">
+                    <!-- icona -->
                  </div>
             </div>
         </div>
@@ -135,7 +136,35 @@ $faq = [
         </div>
     </main>
     <footer>
-        footer
+    <div class="container">
+            <div class="footer-content">
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="#">Google ·</a>
+                        </li>
+                        <li>
+                            <a href="#"> Tutto su Google ·</a>
+                        </li>
+                        <li>
+                            <a href="#"> Privacy ·</a>
+                        </li>
+                        <li>
+                            <a href="#"> Termini</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="language">
+                    <i class="fa-solid fa-language"></i>
+                    <select>
+                        <option value="italiano">Italiano</option>
+                        <option value="inglese">Inglese</option>
+                        <option value="francese">Francese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
